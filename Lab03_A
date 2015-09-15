@@ -9,7 +9,7 @@
                  numFax that is not an int, or a negative number.
 */
 
-package lab03_a;
+//package lab03_a;
 import java.util.*;
 
 public class Lab03_A
@@ -38,14 +38,8 @@ public class Lab03_A
                 faxCost = ( faxCost + 0.20 );
            // Calculates when numFax is greater than 10 pages. 
            else
-           {
-                faxCost = faxCost + 0.20;
-         
-                for (int b = 0; b < ( numFax - 10 ); b++)
-                faxCost = ( faxCost + 0.10 );
-           }
-           
-           
+                faxCost = ( faxCost + 0.20 ) + ( ( numFax - 10 ) * ( 0.10 ) );
+     
            // Prints the total cost out to the user. 
             System.out.printf( "That will cost $%.2f", faxCost );
             System.out.println();

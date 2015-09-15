@@ -10,7 +10,7 @@
                  firstNum/secondNum that is not an int, or a negative number.
 */
 
-package lab03_b_while;
+//package lab03_b_while;
 import java.util.*;
 
 public class Lab03_B_While 

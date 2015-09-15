@@ -9,7 +9,7 @@
     Limitations: The user may encounter errors when entering a value for 
                  firstNum/secondNum that is not an int, or a negative number.
 */
-package lab03_b_for;
+//package lab03_b_for;
 import java.util.*;
 
 public class Lab03_B_For 
